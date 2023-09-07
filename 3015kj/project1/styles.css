@@ -1,4 +1,8 @@
-#logo {
+#titulo{ 
+  text-align: center;
+} /*Identificador para el titulo*/
+
+#logo { 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,28 +10,28 @@
   gap: 10px;
   height: 50%;
   width: 7%;
-}
+} /*Identificador para acomodar el logo*/
 
-#acerca {
+#acerca { 
   margin-left: 10%;
   margin-right: 10%;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   gap: 10px;
   margin-bottom: 100px;
-}
+} /*Identificador para acomodar el texto de acerca de nosotros*/
 
-#perros {
+#perros { 
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+} /*Identificador para acomodar el texto de los perros*/
 
 #perroimages {
   width: 50%;
@@ -36,12 +40,12 @@
   margin-left: 65px;
   margin-right: 100px;
   text-align: center;
-}
-
+} /*Identificador para acomodar las imagenes de los perros*/
+ 
 #color {
-  background-color:lightsteelblue;
-  ;
-}
+  background-color:rgb(76, 131, 227);
+  text-align: center;
+} /*Identificador para el color de fondo de los perros*/
 
 #ayudar {
   margin-left: 10%;
@@ -53,33 +57,34 @@
   gap: 10px;
   margin-top: 100px;
   margin-bottom: 100px;
-}
+} /*Identificador para acomodar el texto de como ayudar*/
 
 #historias {
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #f4f4f4;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 10px;
-}
+  margin-bottom: 100px;
+} /*Identificador para acomodar el texto de historias*/
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: lightsteelblue;
-}
+  background-color: rgb(76, 131, 227);
+} /*Identificador para el cuerpo de la pagina y el color*/
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: lightsteelblue;
-}
+  background-color: rgb(65, 119, 243);
+} /*Identificador para el header y su color*/
 
 header img {
   width: 150px;
@@ -115,7 +120,7 @@ nav ul li a:hover {
   color: black;
   flex-direction: column;
   gap: 20px;
-}
+} /*Identificador para el banner y su color*/
 
 #banner h1 {
   font-size: 2.5em;
@@ -133,3 +138,12 @@ nav ul li a:hover {
 #banner button:hover {
   background-color: #ddd;
 }
+
+#footer{
+  background-color: rgb(65, 119, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+} /*Identificador para el footer y su color*/
