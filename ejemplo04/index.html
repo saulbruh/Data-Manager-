@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap JS (opcional) -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+  </script>
+
+  <script src="script.js"></script>
+
+  <style>
+    body {
+      background-image: url("https://img.lovepik.com/background/20211022/large/lovepik-sky-clouds-background-image_401746897.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container mt-5 opacity-25">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title ">Consulta el clima para una semana</h5>
+
+            <div class="form-group">
+              <label for="location">Ubicacion:</label>
+              <input 
+              type="text" 
+              class="form-control" 
+              id="location" 
+              placeholder="Escribe el nombre de la ciudad">
+            </div>
+            <button id="checkWeather" class="btn btn-primary">Buscar</button>
+          </div>
+        </div>
+        <div id="weatherResult" class="mt-4"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
